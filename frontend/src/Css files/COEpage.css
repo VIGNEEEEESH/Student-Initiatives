@@ -1,0 +1,175 @@
+.AAD #pic{
+  text-align: center;
+  color: black;
+  font-size: 38px;
+}
+
+.AAD .btn btn-dark{
+  align-items: center;
+}
+.AAD .misso{
+  padding-bottom:50px;
+  padding-top:50px;
+}
+.AAD ul,ol{
+  font-size:16px;
+}
+.AAD .mission,.vision{
+box-shadow: 5px 5px 2px black;
+}
+.AAD #PR,#VR{
+
+box-shadow: 5px 5px 2px rgb(250, 138, 138);
+}
+.AAD .ab{
+padding-right:50px;
+}
+.AAD .mission,.vision{
+position:relative;
+animation-name: intro;
+animation-duration: 2s;
+}
+@keyframes intro{
+0%{left:200px;}
+100%{left:0px;}
+}
+
+.AAD .pulse{
+animation: pulse 1s  ;
+}
+@keyframes pulse{
+0%{
+left:200px;
+}
+100%{
+left:0px;
+}
+}
+
+.AAD body{
+background-color: white;
+}
+.AAD .card1{
+border: 1px solid black;
+} 
+
+.AAD .container {
+display: flex;
+width: 100%;
+padding: 4% 2%;
+box-sizing: border-box1;
+height: 80vh;
+}
+
+.AAD .box1 {
+flex: 1;
+overflow: hidden;
+transition: .5s;
+margin: 0 2%;
+box-shadow: 0 20px 30px rgba(0,0,0,.1);
+line-height: 0;
+background-color: black;
+}
+
+.AAD .box1 > img {
+width: 200%;
+height: calc(100% - 10vh);
+object-fit: cover; 
+transition: .5s;
+}
+
+.AAD .box1 > span {
+font-size: 3.8vh;
+display: block;
+text-align: center;
+height: 10vh;
+line-height: 2.6;
+}
+
+.AAD .box1:hover { flex: 1 1 50%; }
+.AAD .box1:hover > img {
+width: 100%;
+height: 100%;
+}
+.AAD .card1Group {
+  border: none;
+}
+
+.AAD .One{
+  width:600px;
+  position:relative;
+  right:100px;
+
+}
+.AAD #Twelve{
+  padding-top:100px;
+  position: relative;
+  left:100px;
+}
+
+.AAD .presidents{
+background-color: black;
+}
+.AAD #PR, #VR{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.AAD .cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: black;
+
+}
+
+.AAD .card1 {
+  margin: 30px auto;
+  width: 260px;
+  height: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-width: 8px;
+  border-color: white;
+  background-color: white;
+}
+
+.AAD .card1 .card1_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+
+.AAD .card1 .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  height: 40px;
+}
+
+.AAD .card1:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px white, 
+    -5px -5px 30px 15px white;
+}
+
+.AAD .title-white {
+  color:black;
+  font-size:12px;
+}
+
+@media all and (max-width: 500px) {
+  .cards-list {
+    flex-direction: column;
+  }
+}
+

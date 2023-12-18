@@ -1,0 +1,13 @@
+.Admin {
+    position: relative;
+    bottom: -50px;
+    
+}
+
+.Admin .card{
+    width:350px;
+}
+.Admin .One{
+    padding:5px;
+    
+}

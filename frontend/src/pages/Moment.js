@@ -1,0 +1,1 @@
+const localizer = momentLocalizer(moment);

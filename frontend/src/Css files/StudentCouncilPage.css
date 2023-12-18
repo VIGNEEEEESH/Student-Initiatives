@@ -1,0 +1,207 @@
+.SC .class_slide{
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+
+}
+@keyframes scroll{
+    0%{
+        transform:translateX(0)
+    }
+    100%{
+        transform:translateX(calc(-250px * 10))
+    }
+}
+.SC .slider{
+    height:100;
+    margin:auto;
+    overflow:hidden;
+    position:relative;
+    width:auto;
+
+}
+.SC .slider .slide-track{
+    animation:scroll 40s linear infinite;
+    display:flex;
+    width:calc(250*45)
+}
+.SC .slider .slide{
+    height:100px;
+    width:250px;
+    padding-left:25px;
+}
+.SC .class_slideOne{
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+
+}
+@keyframes scrollOne{
+    0%{
+        transform:translateX(calc(-250px * 10))
+    }
+    100%{
+        transform:translateX(0)
+    }
+}
+.SC .sliderOne{
+    height:100;
+    margin:auto;
+    overflow:hidden;
+    position:relative;
+    width:auto;
+
+}
+.SC .sliderOne .slide-trackOne{
+    animation:scrollOne 33s linear infinite;
+    display:flex;
+    width:calc(250*18)
+}
+.SC .sliderOne .slideOne{
+    height:100px;
+    width:250px;
+    padding-left:25px;
+}
+.SC .class_slideTwo{
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+
+}
+@keyframes scrollTwo{
+    0%{
+        transform:translateX(0)
+    }
+    100%{
+        transform:translateX(calc(-250px * 8))
+    }
+}
+.SC .sliderTwo{
+    height:100;
+    margin:auto;
+    overflow:hidden;
+    position:relative;
+    width:auto;
+
+}
+.SC .sliderTwo .slide-trackTwo{
+    animation:scrollTwo 33s linear infinite;
+    display:flex;
+    width:calc(250*18)
+}
+.SC .sliderTwo .slideTwo{
+    height:100px;
+    width:250px;
+    padding-left:25px;
+}
+.SC .class_slideThree{
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+
+}
+@keyframes scrollThree{
+    0%{
+        transform:translateX(calc(-250px * 7))
+    }
+    100%{
+        transform:translateX(0)
+    }
+}
+.SC .sliderThree{
+    height:100;
+    margin:auto;
+    overflow:hidden;
+    position:relative;
+    width:auto;
+
+}
+.SC .sliderThree .slide-trackThree{
+    animation:scrollThree 33s linear infinite;
+    display:flex;
+    width:calc(250*18)
+}
+.SC .sliderThree .slideThree{
+    height:100px;
+    width:250px;
+    padding-left:25px;
+}
+.SC .class_slideFour{
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+
+}
+@keyframes scrollFour{
+    0%{
+        transform:translateX(0)
+    }
+    100%{
+        transform:translateX(calc(-250px * 13))
+    }
+}
+.SC .sliderFour{
+    height:100;
+    margin:auto;
+    overflow:hidden;
+    position:relative;
+    width:auto;
+
+}
+.SC .sliderFour .slide-trackFour{
+    animation:scrollFour 33s linear infinite;
+    display:flex;
+    width:calc(250*18)
+}
+.SC .sliderFour .slideFour{
+    height:100px;
+    width:250px;
+    padding-left:25px;
+}
+.SC  .staf:hover{
+    transform:scale(1.1)
+  }
+  
+.SC .staf{
+    
+
+
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.SC .card-group .card{
+     border-style: none;  
+    border-width: 5px;  
+    padding:20px;
+  }
+.SC .card .One, .Two{
+    border-style:double;
+    border-width:3px;
+    box-shadow: 5px 5px 2px black;
+}
+.SC #P{
+    width:30%
+}
+.SC #VP{
+    width:30%;
+    margin-left:400px;
+}
+.SC #ab{
+    padding-top:60px;
+    padding-left:50px;
+    text-align: center;
+}
+
+
+.SC #cd{
+    padding-top:60px;
+    padding-right:50px;
+    text-align: center;
+}
+.SC{
+    padding-top: 30px;
+}
+
+ 
+
+
+

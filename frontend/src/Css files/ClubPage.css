@@ -1,0 +1,240 @@
+.Tech .misso{
+    padding-bottom:50px;
+    padding-top:50px;
+}
+.Tech ul,ol{
+    font-size:16px;
+}
+.Tech .mission,.vision{
+box-shadow: 5px 5px 2px black;
+}
+.Tech #PR,#VR{
+  
+box-shadow: 5px 5px 2px rgb(250, 138, 138);
+}
+.Tech .ab{
+  padding-right:50px;
+}
+.Tech .mission,.vision{
+position:relative;
+animation-name: intro;
+animation-duration: 2s;
+}
+@keyframes intro{
+0%{left:200px;}
+100%{left:0px;}
+}
+
+.Tech .pulse{
+animation: pulse 1s  ;
+}
+@keyframes pulse{
+0%{
+left:200px;
+}
+100%{
+left:0px;
+}
+}
+
+.Tech body{
+  background-color: white;
+}
+.Tech .card{
+border: 1px solid black;
+}
+
+.Tech #calender{
+width:75%;
+height:80%;
+align-items: center;
+}
+.Tech .event-color-c {
+display: flex;
+margin: 16px;
+align-items: center;
+cursor: pointer;
+}
+
+.Tech .event-color-label {
+flex: 1 0 auto;
+}
+
+.Tech .event-color {
+width: 30px;
+height: 30px;
+border-radius: 15px;
+margin-right: 10px;
+margin-left: 240px;
+background: #5ac8fa;
+}
+
+.Tech .crud-color-row {
+display: flex;
+justify-content: center;
+margin: 5px;
+}
+
+.Tech .crud-color-c {
+padding: 3px;
+margin: 2px;
+}
+
+.Tech .crud-color {
+position: relative;
+min-width: 46px;
+min-height: 46px;
+margin: 2px;
+cursor: pointer;
+border-radius: 23px;
+background: #5ac8fa;
+}
+
+.Tech .crud-color-c.selected, .crud-color-c:hover {
+box-shadow: inset 0 0 0 3px #007bff;
+border-radius: 48px;
+}
+
+.Tech .crud-color:before {
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -10px;
+margin-left: -10px;
+color: #f7f7f7;
+font-size: 20px;
+text-shadow: 0 0 3px #000;
+display: none;
+}
+
+.Tech .crud-color-c.selected .crud-color:before {
+display: block;
+}
+
+.Tech .container {
+display: flex;
+width: 100%;
+padding: 4% 2%;
+box-sizing: border-box;
+height: 80vh;
+}
+
+.Tech .box {
+flex: 1;
+overflow: hidden;
+transition: .5s;
+margin: 0 2%;
+box-shadow: 0 20px 30px rgba(0,0,0,.1);
+line-height: 0;
+}
+
+.Tech .box > img {
+width: 200%;
+height: calc(100% - 10vh);
+object-fit: cover; 
+transition: .5s;
+}
+
+.Tech .box > span {
+font-size: 3.8vh;
+display: block;
+text-align: center;
+height: 10vh;
+line-height: 2.6;
+}
+
+.Tech .box:hover { flex: 1 1 50%; }
+.Tech .box:hover > img {
+width: 100%;
+height: 100%;
+}
+.Tech .cardGroup {
+    border: none;
+  }
+ 
+  .Tech .One{
+    width:400px;
+}
+.Tech #Twelve{
+    padding-top:100px;
+    padding-left:10px;
+
+}
+
+.Tech .presidents{
+  background-color: black;
+}
+.Tech #PR, #VR{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.Tech #pic{
+  text-align: center;
+  color: black;
+  font-size: 38px;
+}
+
+.Tech .btn btn-dark{
+  align-items: center;
+}
+.Tech .container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box1;
+  height: 80vh;
+  }
+  
+  .Tech .box1 {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+  background-color: black;
+  }
+  
+  .Tech .box1 > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+  }
+  
+  .Tech .box1 > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+  }
+  
+  .Tech .box1:hover { flex: 1 1 50%; }
+  .Tech .box1:hover > img {
+  width: 100%;
+  height: 100%;
+  }
+
+.Tech #description{
+  width: 70px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .Tech .One {
+    width:100%;
+    align-items: center;
+    padding: 5%;
+    }
+    .Tech .presidents{
+      padding:15px;
+    }
+    .Tech .calender{
+      padding:20px;
+    }
+    
+}

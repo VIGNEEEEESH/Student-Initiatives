@@ -1,0 +1,58 @@
+.Sclub .btn{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Sclub Dropdown .card:hover{
+    transform:scale(1.1)
+  }
+  .Sclub {
+    padding-top:100px;
+    padding-left:10px;
+    display: inline;
+    overflow: hidden;
+}
+.Sclub .card{
+  padding-top: 30px;
+  
+}
+.ant-card-meta-title {
+  white-space: pre-line;
+}
+.Sclub .dropdown-toggle::after {
+    display: none !important; 
+  }
+  .Sclub .Five{
+    padding-top:40px;
+  }
+.Sclub p{
+  align-items: center;
+}
+.Sclub #dropdown{
+  
+  
+  position:static;
+}
+.Sclub #droph{
+  
+  font-weight:bolder;
+  font-size:55px;
+  width: 20px;
+  overflow: hidden;
+}
+
+
+.Sclub .card-class{
+  display: inline;
+  overflow: hidden;
+}
+.Sclub #card:hover{
+  transform:scale(1.1)
+  
+}
+
+.Sclub #card{
+padding-bottom: 40px;
+overflow: hidden;
+width: auto;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}

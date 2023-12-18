@@ -1,0 +1,57 @@
+.ClubDiv .row img{
+    width:100%;
+}
+.ClubDiv .row{
+    padding: 60px;
+  }
+  #columnOne:hover{
+      transform:scale(1.1)
+    }
+    #columnThree:hover{
+      transform:scale(1.1)
+    }
+    .ClubDiv  * {
+box-sizing: border-box;
+}
+
+.ClubDiv .column {
+float: left;
+width: 33.33%;
+padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.ClubDiv .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.ClubDiv #columnOne {
+position: relative;
+animation-name: columnOne;
+animation-duration: 2s;
+}
+
+@keyframes columnOne {
+0%   {left:475px;}
+100% {left:0px;}
+}
+
+.ClubDiv #columnThree {
+position: relative;
+animation-name: columnThree;
+animation-duration: 2s;
+}
+
+@keyframes columnThree {
+0%   {right:475px;}
+100% {right:0px;}
+}
+@media screen and (max-width: 900px) {
+  .ClubDiv .column {
+    float: left;
+    width: 100%;
+    padding: 5px;
+    }
+}
